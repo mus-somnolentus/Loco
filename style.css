@@ -138,14 +138,14 @@
 
 .main__arrow {
   position: absolute;
-  transform: translateY(-100%);
+  top: 50%;
+  transform: translateY(-50%);
   display: inline-block;
   margin: 0 0 0 1.1vw;
   display: inline-block;
   width: 3vw;
   height: .13vw;
   background-color: #000;
-  position: relative;
 }
 
 .main__arrow:before {
@@ -401,6 +401,7 @@ text-shadow: 1px 1px 2px #64c4b8;
 .goods__more {
   display: inline-block;
   height: calc(8px + 5 * ((100vw - 600px) / (1440 - 600)));
+  width: auto;
   font-size: calc(8px + 5 * ((100vw - 600px) / (1440 - 600)));
   color: #000;
   font-weight: 500;
@@ -416,10 +417,10 @@ text-shadow: 1px 1px 2px #64c4b8;
 }
 
 .goods__arrow {
+  display: inline-block;
   position: absolute;
-  transform: translateY(-100%);  
-  display: inline-block;
-  display: inline-block;
+  bottom: 50%;
+  transform: translateY(200%);
   width: 16.74vw;
   height: .13vw;
   background-color: #000;
@@ -587,10 +588,10 @@ text-shadow: 1px 1px 2px #64c4b8;
 }
 
 .promo__arrow {
+  display: inline-block;
   position: absolute;
-  transform: translateY(-100%);
-  display: inline-block;
-  display: inline-block;
+  bottom: 50%;
+  transform: translateY(200%);
   width: 7.5vw;
   height: .13vw;
   background-color: #000;
