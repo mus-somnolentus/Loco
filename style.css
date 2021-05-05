@@ -587,16 +587,11 @@ text-shadow: 1px 1px 2px #64c4b8;
   transition: .5s;
 }
 
-.arrow-box {
-  display: inline-block;
-  height: calc(8px + 5 * ((100vw - 600px) / (1440 - 600)));
-}
-
 .promo__arrow {
   display: inline-block;
   position: absolute;
   bottom: 50%;
-  transform: translateY(50%);
+  transform: translateY(200%);
   width: 7.5vw;
   height: .13vw;
   background-color: #000;
@@ -632,9 +627,9 @@ text-shadow: 1px 1px 2px #64c4b8;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
 }
 
-.promo__more:hover > .arrow-box > .promo__arrow:before,
-.promo__more:hover > .arrow-box > .promo__arrow:after,
-.promo__more:hover > .arrow-box >.promo__arrow  {
+.promo__more:hover > .promo__arrow:before,
+.promo__more:hover > .promo__arrow:after,
+.promo__more:hover > .promo__arrow {
   background-color:  #64c4b8;
   transition: .5s;
 }

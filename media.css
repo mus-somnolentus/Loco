@@ -1,4 +1,4 @@
-@media screen and (max-width: 1245px) {
+@media screen and (max-width: 1100px) {
   .main__content {
     padding-right: 6vw;
     padding-top: 6vw;
@@ -294,7 +294,7 @@
   }
 
   .promo__arrow {
-  
+    transform: translateY(-120%);
     width: 36vw;
     height: .53vw;
     margin-left: 0;
